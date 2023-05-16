@@ -1,0 +1,25 @@
+:root {
+  background-color: black;
+  --primary: #0080FF
+
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+.container {
+  max-width: 400px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+/*#fondo{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}*/

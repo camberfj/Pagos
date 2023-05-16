@@ -1,0 +1,30 @@
+<section class="container">
+  <form class="formulario" (ngSubmit)="registrar()">
+    <h2 class="formulario__titulo">Gastos</h2>
+    <div class="form-field">
+      <label for="culpable" class="form-field__label">Culpable</label>
+      <input
+      type="text"
+      id="culpable"
+      class="form-field__input"
+      placeholder="Nombre"
+      [(ngModel)]="culpable"
+      name="culpable"
+      />
+    </div>
+    <div class="form-field">
+    <label for="valor" class="form-field__label">Valor</label>
+    <input
+    type="text"
+    id="valor"
+    class="form-field__input"
+    placeholder="Cantidad"
+    [(ngModel)]="valor"
+    name="valor"
+    />
+  </div>
+  <div class="boton-container">
+    <button class="boton" type="submit">Registrar</button>
+  </div>
+  </form>
+</section>

@@ -1,0 +1,17 @@
+header {
+  background-color: var(--primary);
+  color: white;
+  padding: 15px;
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.activo{
+  display: none;
+}
